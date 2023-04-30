@@ -9,9 +9,9 @@ const main = document.createElement('main');
 main.className = 'main';
 document.body.append(main);
 
-const input = document.createElement('div');
-input.className = 'main__input';
-main.appendChild(input);
+const textarea = document.createElement('textarea');
+textarea.className = 'main__textarea';
+main.appendChild(textarea);
 
 const keyboard = document.createElement('div');
 keyboard.className = 'main__keyboard';

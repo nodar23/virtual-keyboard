@@ -6,8 +6,26 @@
   color: #676666;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.main__textarea {
+  width: 50%;
+  height: 100px;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0a817b;
+  border: 3px #b7b7b7 solid;
+  border-radius: 10px;
+}
+
 .footer__text {
   font-family: monospace;
+  font-size: 14px;
   font-weight: 400;
   text-align: center;
   color: #676666;
