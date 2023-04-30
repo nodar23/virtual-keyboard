@@ -1,0 +1,14 @@
+.header__title {
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #676666;
+}
+
+.footer__text {
+  font-family: monospace;
+  font-weight: 400;
+  text-align: center;
+  color: #676666;
+}
