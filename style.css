@@ -1,0 +1,87 @@
+.header__title {
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #676666;
+  margin-bottom: 5px;
+  padding-top: 50px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding-bottom: 50px;
+}
+
+.main__textarea {
+  width: 50%;
+  height: 100px;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0a817b;
+  border: 3px #b7b7b7 solid;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.main__description-text {
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 18px;
+  color: #676666;
+}
+
+.main__keyboard {
+  width: 100%;
+  padding: 5px 0;
+  user-select: none;
+  transition: bottom 0.4s;
+  padding: 20px;
+}
+
+.main__keyboard-keys {
+  text-align: center;
+}
+
+.main__keyboard-key {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 4%;
+  max-width: 100px;
+  margin: 1px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  background: #e75353;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.main__keyboard-key:active {
+  background: #0a817be5;
+}
+
+.main__keyboard-key--big {
+  width: 12%;
+}
+
+.main__keyboard-key--very-big {
+  width: 36%;
+  max-width: 500px;
+}
+
+.footer__text {
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #676666;
+}
